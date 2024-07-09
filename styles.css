@@ -29,19 +29,21 @@ body, html {
 
 .popup {
     position: fixed;
-    top: 0;
+    top: 5px;
     right: -100%;
-    width: 50%;
+    bottom: 5px;
+    width: 30%;
     height: 100%;
     background-color: white;
     box-shadow: -2px 0 5px rgba(0,0,0,0.5);
     transition: right 0.3s ease;
     padding: 20px;
     overflow-y: auto;
+    border-radius: 10px;
 }
 
 .popup.active {
-    right: 0;
+    right: 5px;
 }
 
 .close-btn {
