@@ -19,6 +19,9 @@ body, html {
 .image-container img {
     width: 100%;
     transition: transform 0.25s ease;
+}
+
+.images {
     cursor: pointer;
 }
 
