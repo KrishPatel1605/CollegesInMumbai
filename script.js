@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const images = document.querySelectorAll('.images img');
+    const stations = document.querySelectorAll('.stations div');
     const contentDiv = document.getElementById('popup-content');
     const popup = document.getElementById('popup');
     const closeBtn = document.getElementById('close-btn');
 
-    images.forEach(image => {
-        image.addEventListener('click', () => {
+    stations.forEach(station => {
+        station.addEventListener('click', () => {
             popup.classList.add('active');
-            const imageId = image.id;
-            const hypertextFile = `TextFiles/Hyperlinks/${imageId}.txt`;
-            const embedFile = `TextFiles/EmbedLinks/${imageId}.txt`;
-            const namesFile = `TextFiles/Names/${imageId}.txt`;
+            const stationId = station.id;
+            const hypertextFile = `TextFiles/Hyperlinks/${stationId}.txt`;
+            const embedFile = `TextFiles/EmbedLinks/${stationId}.txt`;
+            const namesFile = `TextFiles/Names/${stationId}.txt`;
 
             Promise.all([
                 fetch(hypertextFile).then(response => response.text()),
@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 hyperLinksArray.forEach((link, index) => {
                     const nameText = nameTextArray[index] || '';
                     content += `<p>${nameText}</p>`;
-                    content += `<a href="${link}" target="_blank">Link ${index + 1}</a><br>`;
-                    if(embedLinksArray[index]){
+                    content += `<a href="${link}" target="_blank">Know more</a><br>`;
+                    if (embedLinksArray[index]) {
                         content += `${embedLinksArray[index]}<br>`;
                     }
                 });
-                contentDiv.innerHTML = content + 'Goodbye';
+                contentDiv.innerHTML = content;
             })
             .catch(error => {
                 contentDiv.textContent = 'Error loading content.';
