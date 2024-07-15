@@ -19,7 +19,7 @@ body, html {
     position: relative;
 }
 
-#Bandra, #Thane, #Sion {
+#Bandra, #Thane, #Sion, #Kurla, #Airoli, #Ghansoli, #Wadala, #Matunga {
     position: absolute;
     cursor: pointer;
     background-color: black;
@@ -39,11 +39,46 @@ body, html {
     width: 3.2vw;
 }
 
+#Airoli {
+    margin-left: 54.7%;
+    margin-top: 68.5%;
+    height: 1.1vw;
+    width: 2.2vw;
+}
+
+#Ghansoli {
+    margin-left: 61.2%;
+    margin-top: 75.4%;
+    height: 1.1vw;
+    width: 3.6vw;
+}
+
 #Sion {
     margin-left: 27.5%;
     margin-top: 91.4%;
-    height: 1.2vw;
+    height: 1vw;
     width: 1.9vw;
+}
+
+#Matunga {
+    margin-left: 22.1%;
+    margin-top: 96%;
+    height: 1.2vw;
+    width: 3.6vw;
+}
+
+#Kurla {
+    margin-left: 29.1%;
+    margin-top: 86%;
+    height: 1.2vw;
+    width: 2.7vw;
+}
+
+#Wadala {
+    margin-left: 36.5%;
+    margin-top: 102.8%;
+    height: 1.3vw;
+    width: 3.7vw;
 }
 
 .popup {
