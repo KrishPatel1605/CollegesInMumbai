@@ -19,7 +19,7 @@ body, html {
     position: relative;
 }
 
-#Bandra, #image4 {
+#Bandra, #Thane {
     position: absolute;
     cursor: pointer;
     background-color: black;
@@ -32,11 +32,11 @@ body, html {
     width: 3.7vw;
 }
 
-#image4 {
+#Thane {
     margin-left: 43.5%;
-    margin-top: 64%;
+    margin-top: 64.1%;
     height: 1.2vw;
-    width: 3vw;
+    width: 3.2vw;
 }
 
 .popup {
