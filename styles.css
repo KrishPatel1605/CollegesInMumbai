@@ -19,7 +19,7 @@ body, html {
     position: relative;
 }
 
-#Bandra, #Thane, #Sion, #Kurla, #Airoli, #Ghansoli, #Wadala, #Matunga {
+#Bandra, #Thane, #Sion, #Kurla, #Airoli, #Ghansoli, #Wadala, #Matunga, #Nerul, #Kopar, #Andheri {
     position: absolute;
     cursor: pointer;
     background-color: black;
@@ -30,6 +30,13 @@ body, html {
     margin-top: 83.7%;
     height: 1.2vw;
     width: 3.7vw;
+}
+
+#Andheri {
+    margin-left: 13.3%;
+    margin-top: 69.7%;
+    height: 1.2vw;
+    width: 4.1vw;
 }
 
 #Thane {
@@ -47,10 +54,24 @@ body, html {
 }
 
 #Ghansoli {
-    margin-left: 61.2%;
+    margin-left: 61.1%;
     margin-top: 75.4%;
     height: 1.1vw;
-    width: 3.6vw;
+    width: 3.7vw;
+}
+
+#Kopar {
+    margin-left: 61.1%;
+    margin-top: 79.7%;
+    height: 1vw;
+    width: 6.3vw;
+}
+
+#Nerul {
+    margin-left: 61.5%;
+    margin-top: 92.8%;
+    height: 1.3vw;
+    width: 2.9vw;
 }
 
 #Sion {
