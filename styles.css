@@ -19,7 +19,7 @@ body, html {
     position: relative;
 }
 
-#Bandra, #Thane, #Sion, #Kurla, #Airoli, #Ghansoli, #Wadala, #Matunga, #Nerul, #Kopar, #Andheri {
+#Bandra, #Thane, #Sion, #Kurla, #Airoli, #Ghansoli, #Wadala, #Matunga, #Nerul, #Kopar, #Andheri, #Kandivali, #Borivali, #Byculla, #Panvel, #Vile, #Mahim {
     position: absolute;
     cursor: pointer;
     background-color: black;
@@ -32,11 +32,39 @@ body, html {
     width: 3.7vw;
 }
 
+#Mahim {
+    margin-left: 15.1%;
+    margin-top: 89.4%;
+    height: 1vw;
+    width: 2.8vw;
+}
+
 #Andheri {
     margin-left: 13.3%;
     margin-top: 69.7%;
     height: 1.2vw;
+    width: 4.2vw;
+}
+
+#Vile {
+    margin-left: 13%;
+    margin-top: 73.4%;
+    height: 1.1vw;
+    width: 4.2vw;
+}
+
+#Kandivali {
+    margin-left: 15%;
+    margin-top: 57.6%;
+    height: 1.1vw;
     width: 4.1vw;
+}
+
+#Borivali {
+    margin-left: 14.3%;
+    margin-top: 54%;
+    height: 1.3vw;
+    width: 3.9vw;
 }
 
 #Thane {
@@ -62,8 +90,8 @@ body, html {
 
 #Kopar {
     margin-left: 61.1%;
-    margin-top: 79.7%;
-    height: 1vw;
+    margin-top: 79.6%;
+    height: 1.1vw;
     width: 6.3vw;
 }
 
@@ -74,11 +102,25 @@ body, html {
     width: 2.9vw;
 }
 
+#Panvel {
+    margin-left: 76.4%;
+    margin-top: 108.7%;
+    height: 1.3vw;
+    width: 3.4vw;
+}
+
 #Sion {
     margin-left: 27.5%;
     margin-top: 91.4%;
     height: 1vw;
     width: 1.9vw;
+}
+
+#Byculla {
+    margin-left: 27.7%;
+    margin-top: 112.4%;
+    height: 1.2vw;
+    width: 3vw;
 }
 
 #Matunga {
